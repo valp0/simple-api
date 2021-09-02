@@ -7,4 +7,4 @@ This is a simple REST API that supports the following endpoints:
 
 This API was built using Go 1.15, to run it you only have to clone or fork this repo, then build the main API file by running ```go build cmd/api/main.go``` and running the generated executable file. This API is set to work through port 8080, but that can be changed in the main.go file.
 
-Since no external libraries were used to create this simple API, there is no need to install anything else in order to run it.
+Since no external libraries were used to create this API, there is no need to install anything else in order to run it.
