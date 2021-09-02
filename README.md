@@ -5,6 +5,6 @@ This is a simple REST API that supports the following endpoints:
   - /btc2usd -> This endpoint doesn't accept any query params. It will respond with the current BTC-to-USD exchange rate. It uses the [coinbase API](https://developers.coinbase.com/).
   - / -> I only added this endpoint to send a JSON message to specify which endpoints are available, so it is just for general information purposes, in case it gets accessed by accident.
 
-This API was built using Go 1.15, to run it you only have to clone or fork this repo, then build the main API file by running ```go build cmd/api/main.go``` and running the generated executable file. This app is set to listen through port 8080, but that can be changed in the main.go file.
+This API was built using Go 1.15, to run it you only have to clone or fork this repo, then build the main API file by running ```go build cmd/api/main.go``` and running the generated executable file. This api is set to work through port 8080, but that can be changed in the main.go file.
 
 Since no external libraries were used to create this simple API, there is no need to install anything else in order to run it.
